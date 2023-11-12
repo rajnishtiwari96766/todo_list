@@ -24,8 +24,6 @@ const App=()=> {
       // filter is used to delete old items from the array
       return oldItems.filter((arrEle,index)=>{
         return index!==id; //it will return theitems whose index is not equal to the id
-
-
       })
     })
 }
